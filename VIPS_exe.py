@@ -26,11 +26,8 @@ def VIPS_call(command, inputFile, outputFile, parameters):
 
 def VIPS_dzsave(inputFile, outputFile, layout="google", progress=True, suffix=".png[compression=9]"):
 	if layout=='google':	
-		if outputFile.endswith('.gmaps'):
-			templateFile = outputFile[0:len(outputFile)-len('.gmaps')]+'.html'
-		else:
-			outputFile=outputFile+".gmaps"
-			templateFile=outputFile+".html"
+		outputFile=outputFile
+		templateFile=outputFile+".html"
 		
 	VIPS_call("dzsave",
 		inputFile,
