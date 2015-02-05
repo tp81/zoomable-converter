@@ -2,7 +2,7 @@ import tkFileDialog as tf
 from Tkinter import *
 import os, datetime
 from time import sleep
-import VISP_exe
+import VIPS_exe
 
 '''
 Converter : a simple file conversion dialog box to convert a bunch of files in a directory recursively to the Google Maps tiled format.
@@ -66,7 +66,7 @@ class ConverterDialog(Frame):
 	def doFile(self,input, output):
 		self.log('Starting '+input+' >> '+output)
 		
-		
+		VIPS_exe.VIPS_dzsave(input, output)
 
 	def go(self):
 		indir = self.indir_e.get()
