@@ -1,5 +1,5 @@
 # zoomable-converter
-A python utility to convert VIPS-readable images to zoomable images, including the html templates
+A python utility to convert VIPS-readable images to zoomable images using the Google Maps API.
 
 You can either:
   - use the Converter.py GUI (experimental)
