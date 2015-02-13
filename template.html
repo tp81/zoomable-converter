@@ -5,7 +5,6 @@
 var map;
 
 function getURLParameter(name) {
-  //return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search)||[,""])[1].replace(/\+/g, '%20'))|| "ORIG_Kim30_12_14_2_S01.gmaps";
   var url = window.location.pathname;
   return url.substring(url.lastIndexOf('/')+1, (url.length-5))+"_files";
 }
