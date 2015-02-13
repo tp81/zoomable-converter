@@ -11,4 +11,6 @@ Prerequisites:
 Configuration:
   - Change the location for the VIPS executable in VIPS_exe.py
 
+Credits:
+  - the template file has been modified from the NYU Virtual Microscope page http://education.med.nyu.edu/virtualmicroscope/
 
