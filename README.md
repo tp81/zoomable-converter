@@ -8,4 +8,7 @@ You can either:
 Prerequisites:
   - VIPS (http://www.vips.ecs.soton.ac.uk/index.php?title=VIPS)
 
-  
+Configuration:
+  - Change the location for the VIPS executable in VIPS_exe.py
+
+
