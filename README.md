@@ -13,4 +13,4 @@ Configuration:
 
 Credits:
   - the template file has been modified from the NYU Virtual Microscope page http://education.med.nyu.edu/virtualmicroscope/
-
+  - the code has been adapted from http://libvips.blogspot.com/2013/03/making-deepzoom-zoomify-and-google-maps.html 
